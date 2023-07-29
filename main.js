@@ -7,7 +7,7 @@ function recomendar(genero) {
     switch (genero) {
         
         case 'drama':
-            if (edad < 13 && edad > 0) {
+            if (edad < 13 ) {
                 recomendaciones.textContent = "Las ventajas de ser invisible";
             } else if (edad < 16) {
                 recomendaciones.textContent = "Bajo la misma estrella";
@@ -18,7 +18,7 @@ function recomendar(genero) {
 
             break;
         case 'comedia':
-            if (edad < 13 && edad > 0) {
+            if (edad < 13) {
                 recomendaciones.textContent = "Suerte";
             } else if (edad < 16) {
                 recomendaciones.textContent = "Todo un parto";
@@ -29,7 +29,7 @@ function recomendar(genero) {
 
             break;
         case 'accion':
-            if (edad < 13 && edad > 0) {
+            if (edad < 13) {
                 recomendaciones.textContent = "Free guy";
             } else if (edad < 16) {
                 recomendaciones.textContent = "Shazam";
@@ -40,7 +40,7 @@ function recomendar(genero) {
 
             break;
         case 'suspenso':
-            if (edad < 13 && edad > 0) {
+            if (edad < 13 ) {
                 recomendaciones.textContent = "Megan";
             } else if (edad < 16) {
                 recomendaciones.textContent = "Sin Limites";
